@@ -15,3 +15,10 @@
 # Learn to read the documentation!
 # http://ruby-doc.org/core-2.5.1/Array.html
 
+list1 = ["milk", "eggs", "bacon", "coffee"]
+list2 = ["beer", "cookies", "coffee"]
+combo_list = list1 + list2
+combo_list = combo_list.sort
+unique_list = combo_list.uniq
+
+puts unique_list
